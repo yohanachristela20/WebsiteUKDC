@@ -1,0 +1,292 @@
+<html>
+	<head>
+		<link rel="icon" href="../gambar/logo_ukdc.png">
+		<title>Universitas Katolik Darma Cendika - Scientia Et Moralis</title>
+	</head>
+
+	<style>
+		.header {
+			width: 100%;
+			height: 120px;
+			background-color: #105191;
+			position: relative;
+		}
+
+		.judul {
+			list-style-type: none;
+			display: inline-block;
+			margin-left: 20px;
+			color: white;
+			position: absolute;
+			margin-top: 15px;
+			font-size: 20px;
+		}
+				
+		.judul h4 {
+			list-style-type: none;
+			display: inline-block;
+			color: white;
+			margin-top: 30px;
+			font-size: 17px;
+		}
+		
+		nav {
+			background-color: #105191;
+			display: inline-block;
+			width: 100%;
+			padding: 0;
+			position: relative;
+		}
+		
+		nav ul {
+			padding: 0;
+			margin: 0;
+			list-style: none;
+			float: right;
+			margin-right: 250px;		
+		}
+		
+		nav ul li {
+			float: left;
+			background-color: #105191;
+		}
+		
+		nav a {
+			display: block;
+			padding: 0 25px;
+			color: white;
+			line-height: 60px;
+			font-size: 20px;
+			text-decoration: none;
+		}
+		
+		nav a:hover {
+			background-color: #5183b5;
+			border-radius: 7px;
+		}
+		
+		nav ul ul {
+			display: none;
+			position: absolute;
+			top: 60px; /* Diubah dari 210px menjadi 60px */
+		}
+		
+		nav ul li:hover > ul {
+			display: block;
+		}
+		
+		nav ul ul li {
+			width: 280px;
+			float: none;
+			display: list-item;
+			position: relative;
+			border-bottom: 2px solid #ffffff;
+		}
+		
+		nav ul ul ul li {
+			position: relative;
+			left: 280px;
+			top: 0; /* Diubah dari -210px menjadi 0 */
+		}
+		
+		li > a::after { 
+			content: ' ˅'; 
+			font-size: 12px;
+		}
+		
+		li > a:only-child::after {
+			content: '';
+		}
+		
+		.atas {
+			width: 100%;
+			height: 40px;
+			background-color: #193561;
+		}
+		
+		.container {
+			width: 20%;
+			margin: 0 auto;
+			margin-right: 60px;
+		}
+		
+		.box {
+			border: 4px solid #c3d0e3;
+			width: 230px;
+			border-radius: 40px;
+			height: 20px;
+			display: inline-block;
+			margin-top: 5px;
+		}
+		
+		.input {
+			outline: none;
+			height: 20px;
+			width: 180px;
+			border-radius: 40px;
+			border: 0;
+			display: inline-block;
+		}
+		
+		.src {
+			background: transparent;
+			outline: none;
+			border: 0;
+			color: white;
+			padding-left: 10px;
+		}
+		
+		.box:hover {
+			background-color: #768db3;
+		}
+		
+		#bg-video {
+			position: absolute;
+			right: 0;
+			left: 20px; /* Ditambahkan satuan px */
+			bottom: 0;
+			top: 210px; /* Ditambahkan satuan px */
+			width: 1300px;
+			height: 560px;
+			z-index: -100;
+		}
+		
+		table {
+			border-spacing: 40px;
+			border-style: none;
+		}
+		
+		p {
+			font-size: 20px;
+			margin-top: 30px;
+		}
+		
+		.wrapper-text {
+			text-align: center;
+			opacity: 0;
+			animation: ani2 0.5s ease-out forwards;
+		}
+		
+		.wrapper-text h2 {
+			opacity: 0;
+			margin: 0;
+			animation: ani2 0.75s ease-out 3s forwards;
+		}
+		
+		@keyframes ani2 {
+			100% {
+				opacity: 1;
+			}
+		}
+		
+		.cover {
+			width: 100%;
+			height: 500px;
+			background-color: #c3d0e3;
+			margin: auto;
+			margin-top: 50px;
+		}
+	
+		.cover2 {
+			width: 100%;
+			height: 500px;
+			background-image: url('../gambar/ssukdc2.png');
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			margin: auto;
+		}
+		
+		.footer1 {
+			width: 100%;
+			height: 300px;
+			background-color: #105191;
+			margin: auto;
+			margin-top: 0;
+		}
+		
+		.footer2 {
+			width: 100%;
+			height: 50px;
+			background-color: #193561;
+			margin: auto;
+			margin-top: 0;
+			text-align: center;
+			padding-top: 35px;
+			color: white;
+		}
+	</style>
+
+	<body>
+		<div class="atas">
+			<div class="container">
+				<div class="box">
+					<input type="text" class="input"><button class="src">Cari</button>
+				</div>
+			</div>
+		</div>
+	
+		<div class="header">
+			<img src="../gambar/logo_ukdc.png" width="90" height="90" style="margin-left: 20px; margin-top: 15px;">
+			<div class="judul">
+				<h3>UNIVERSITAS KATOLIK DARMA CENDIKA</h3>
+				<h4>Scientia Et Moralis</h4>
+			</div>
+			<nav>
+				<ul>
+					<li><a href="0014ukdc.html">Beranda</a></li>
+					<li><a href="#">Tentang UKDC</a>
+						<ul>
+							<li><a href="sejarah.html">Sejarah</a></li>
+							<li><a href="visimisi.html">Visi & Misi</a></li>
+							<li><a href="logoukdc.html">Filosofi Logo UKDC</a></li>
+							<li><a href="pejabat.html">Pejabat Struktural</a></li>
+							<li><a href="prestasi.html">Prestasi</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Akademik</a>
+						<ul>
+							<li><a href="https://siakad.ukdc.ac.id/gate/login">Sistem Informasi Akademik</a></li>
+							<li><a href="http://skpi.ukdc.ac.id/">Surat Keterangan Pendamping Ijazah</a></li>
+							<li><a href="beasiswa.html">Beasiswa</a></li>
+							<li><a href="../dok/pedoman.pdf">Pedoman Akademik</a></li>
+							<li><a href="../dok/kalender.pdf">Kalender Akademik</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Fakultas</a>
+						<ul>
+							<li><a href="#">Fakultas Teknik</a>
+								<ul>
+									<li><a href="infor.html">Program Studi Ilmu Informatika (S1)</a></li>
+									<li><a href="industri.html">Program Studi Teknik Industri (S1)</a></li>
+									<li><a href="arsi.html">Program Studi Arsitektur (S1)</a></li>
+									<li><a href="akpt.html">Program Studi Akupuntur (D4)</a></li>
+								</ul>
+							</li>
+							<li><a href="hukum.html">Fakultas Hukum</a></li>
+							<li><a href="ekonomi.html">Fakultas Ekonomi</a></li>
+							<li><a href="dps.html">Fakultas Bahasa dan Seni</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Fasilitas</a>
+						<ul>
+							<li><a href="perpus.html">Perpustakaan</a></li>
+							<li><a href="fasil.html">Fasilitas Kampus</a></li>
+							<li><a href="http://ukdc.ac.id/jadwal">Jadwal Perkuliahan</a></li>
+							<li><a href="laboran.html">Laboratorium</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Kontak</a>
+						<ul>
+							<li><a href="https://www.google.com/maps/place/UKDC/@-7.247827,112.7560893,17z/data=!3m1!4b1!4m6!3m5!1s0x2dd7f9c640000001:0x4dfe3aefb080a5fa!8m2!3d-7.247827!4d112.758278!16s%2Fg%2F12r83_vxt">Lokasi Kampus</a></li>
+							<li><a href="../dok/lokasikampus.pdf">Lokasi UKDC</a></li>
+							<li><a href="https://wa.me/628113187123">WhatsApp</a></li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</body>
+</html>
+
+
+							

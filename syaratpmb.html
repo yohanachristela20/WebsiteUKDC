@@ -1,0 +1,333 @@
+<html>
+<head>
+	<link rel="icon" href="../gambar/logo_ukdc.png">
+	<title>Syarat Pendaftaran Mahasiswa Baru UKDC</title>
+</head>
+
+<style>
+	.header {
+				width:100%;
+				height:120px;
+				background-color: #105191;
+				}
+
+		.judul {
+				list-style-type:none;
+				display:inline-block;
+				margin-left:20px;
+				color: white;
+				position:absolute;
+				margin-top:15px;
+				font-size:20px;
+				}
+				
+		.judul h4 {
+				list-style-type:none;
+				display:inline-block;
+				color: white;
+				position:absolute;
+				top:30px;
+				font-size:17px;
+				}
+		
+		
+		nav {
+				background-color:#105191;
+				display:inline-block;
+				width:100%;
+				padding:0px;	
+		}
+		
+		nav ul{
+				padding:0px;
+				margin:0px;
+				list-style:none;
+				float: right;
+				margin-right:250px;		
+		}
+		
+		nav ul li{
+			float:left;
+			background-color: #105191;
+		}
+		
+		nav a {
+			display:block;
+			padding:0 25px;
+			color:white;
+			line-height:60px;
+			font-size:20px;
+			text-decoration:none;
+		}
+		
+		nav a:hover {
+			background-color:#5183b5;
+			border-radius:7px;
+		}
+		
+		nav ul ul{
+			display:none;
+			position:absolute;
+			top:210px;
+		}
+		
+		nav ul li:hover > ul {
+			display:block;
+		}
+		
+		nav ul ul li{
+			width : 280px;
+			float:none;
+			display:list-item;
+			position:relative;
+			border-bottom: 2px solid #ffffff;
+		} 
+		
+		nav ul ul ul li{
+			position:relative;
+			left:280px;
+			top:-210px;
+		}
+		
+		li > a::after { content: ' ˅'; font-size:12px}
+		li > a:only-child::after{
+			content:'';
+		}
+		
+		.atas{
+			width:100%;
+			height:40px;
+			background-color:#193561;
+		}
+		
+		.container{
+			width:20%;
+			margin: 0 auto;
+			margin-right:60px;
+		}
+		
+		.box{
+			border:4px solid #c3d0e3;
+			width:230px;
+			border-radius:40px;
+			height:20px;
+			display:inline-block;
+			margin-top:5px;
+		}
+		
+		.input{
+			outline:none;
+			height:20px;
+			width:180px;
+			border-radius:40px;
+			border:0;
+			display:inline-block;
+			
+		}
+		
+		.src{
+			background:transparent;
+			outline:none;
+			border:0;
+			color:white;
+			padding-left:10px;
+		}
+		
+		.box:hover{
+			background-color:#768db3;
+		}
+		
+		.footer1 {
+			width: 100%;
+			height: 300px;
+			background-color: #105191;
+			margin: auto;
+			margin-top : 0px;
+		}
+		
+		.footer2 {
+			width: 100%;
+			height: 50px;
+			background-color: #193561;
+			margin: auto;
+			margin-top : 0px;
+			text-align:center;
+			padding-top:35px;
+			color:white;
+		}
+		
+		.cover {
+			width: 100%;
+			height: 400px;
+			background-color: transparent;
+			margin: auto;
+			margin-top : 50px;
+		}
+		
+		.cover2 {
+			width: 700px;
+			height: 650px;
+			background-color: #e9edf2;
+			margin: auto;
+			margin-top : 50px;
+		}
+		
+		.wrapper-text{
+			text-align:center;
+			opacity:0;
+			animation:ani2 0.5s ease-out forwards;
+			
+			
+		}
+		
+		.wrapper-text h2{
+			opacity:0;
+			margin:0;
+			
+			
+		}
+		
+		.wrapper-text h2{
+			animation: ani2 0.75s ease-out 1.5s forwards;
+			
+		}
+		
+		@keyframes ani2{
+			100%{
+				opacity:1;
+				
+			}
+		}
+		
+</style>
+
+<body style="background-color:#e9edf2"">
+	<div class="atas">
+			<div class="container">
+				<div class="box">
+					<input type ="text" class="input"><button class ="src">Cari</button>
+				
+				</div>
+			</div>
+			</div>
+	
+		<div class="header">
+					<img src="../gambar/logo_ukdc.png" width="90" height="90" style="margin-left:20; margin-top:15px">
+					<div class="judul">
+						<h3> UNIVERSITAS KATOLIK DARMA CENDIKA</h3>
+						<h4>Scientia Et Moralis</h4>
+					</div>
+					<nav>
+						<ul>
+						<li><a href="index.html">Beranda</a></li>
+						<li><a href="#">Tentang UKDC</a>
+							<ul>
+								<li><a href="sejarah.html">Sejarah</a></li>
+								<li><a href="visimisi.html">Visi & Misi</a></li>
+								<li><a href="logoukdc.html">Filosofi Logo UKDC</a></li>
+								<li><a href="pejabat.html">Pejabat Struktural</a></li>
+								<li><a href="prestasi.html">Prestasi</a></li>
+							</ul>
+						</li>
+						<li><a href="#">Akademik</a>
+							<ul>
+								<li><a href="https://siakad.ukdc.ac.id/gate/login">Sistem Informasi Akademik</a></li>
+								<li><a href="http://skpi.ukdc.ac.id/">Surat Keterangan Pendamping Ijazah</a></li>
+								<li><a href="beasiswa.html">Beasiswa</a></li>
+								<li><a href="../dok/pedoman.pdf">Pedoman Akademik</a></li>
+								<li><a href="../dok/kalender.pdf">Kalender Akademik</a></li>
+							</ul>
+						</li>
+						<li><a href="#">Fakultas</a>
+							<ul>
+								<li><a href="#">Fakultas Teknik</a>
+									<ul>
+										<li><a href="infor.html">Program Studi Ilmu Informatika (S1)</a></li>
+										<li><a href="industri.html">Program Studi Teknik Industri (S1)</a></li>
+										<li><a href="arsi.html">Program Studi Arsitektur (S1)</a></li>
+										<li><a href="akpt.html">Program Studi Akupuntur (D4)</a></li>
+									</ul>
+								</li>
+								<li><a href="#">Fakultas Ekonomi</a>
+									<ul>
+										<li><a href="akuntansi.html">Program Studi Akuntansi (S1)</a></li>
+										<li><a href="mnj.html">Program Studi Manajemen (S1)</a></li>
+									</ul>
+								</li>
+								<li><a href="#">Fakultas Hukum</a>
+									<ul>
+										<li><a href="hukum.html">Program Studi Ilmu Hukum (S1)</a></li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<li><a href="#">Pendaftaran</a>
+							<ul>
+								<li><a href="syaratpmb.html">Syarat Pendaftaran</a></li>
+								<li><a href="../dok/brosur.pdf">Biaya Pendidikan</a></li>
+								<li><a href="pendaftaran.html">Pendaftaran Mahasiswa Baru</a></li>
+							</ul>
+						</li>
+						<li><a href="fasilitas.html">Fasilitas</a>
+						</li>
+						</ul>
+						</nav>
+			</div>
+			
+			<div class="cover2" style="padding-top:35px; text-align:justify; font-size:20px;">
+				
+				<center>
+				<h2 style="padding-top:60px;">Syarat Pendaftaran Mahasiswa Baru UKDC<hr></h2>
+				</center>
+				<br>
+				
+				<ul>
+					<p><li>Foto copy Ijasah yang telah dilegalisir</li></p>
+					<p><li>Foto copy SKHUN yang telah dilegalisir</li></p>
+					<p><li>Foto copy Raport yang telah dilegalisir</li></p>
+					<p><li>Foto copy KTP</li></p>
+					<p><li>Foto copy KK</li></p>
+					<p><li>Foto copy Akte Kelahiran</li></p>
+					<p><li>Pas foto 4×6 berwarna terbaru (2 lembar)</li></p>
+					<p><li>Mengisi Formulir pendaftaran</li></p>
+					
+				</ul>
+				
+				
+				
+			
+			</div>
+</body>
+
+<footer class="footer1" style="padding-top:40px;">
+	<footer>
+	<div class="footer1">
+			<table>
+				<tr>
+					<td style="padding-left:100px"> 
+						<img src="../gambar/logo_ukdc.png" width="100px" height="100px">
+						<h4 style="color:white; margin-top:10px;">UNIVERSITAS KATOLIK DARMA CENDIKA</h4>
+						<img src="../gambar/placeholder.png" width="20px" height="20px" style="margin-top:-15px"><p style="margin-top:-18px; color:white; font-size:16px;"> &emsp; &ensp; Jl. Dr. Ir. H. Soekarno No. 201, Surabaya</p>
+						<img src="../gambar/email.png" width="20px" height="20px" style="margin-top:-10px"><a href="https://mail.google.com/" style="margin-top:0px;  color:white; font-size:17px; text-decoration:none;"> &nbsp; info@ukdc.ac.id</a>
+						<p style="margin-top:5px; color:white; font-size:18px;"><img src="../gambar/phone.png" width="20px" height="20px"> &nbsp; 031-5946482</p>
+					
+					</td>
+				
+					<td>
+						<h3 style="padding-left:250px; margin-top:0px; color:white">Peta Lokasi</h3>
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.553430016113!2d112.77872791409108!3d-7.2915401736921055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fa48d8531e99%3A0x88be2742d63894e1!2sUniversitas%20Katolik%20Darma%20Cendika!5e0!3m2!1sen!2sid!4v1634230006311!5m2!1sen!2sid" 
+						width="500" height="150" style="border:0; padding-left:250px" allowfullscreen="" loading="lazy"></iframe>
+						<p style= "padding-left:410px; margin-top:35px;"><a href = https://instagram.com/infoukdc?utm_medium=copy_link/><img src="../gambar/instagram.png" width="20px" height="20px" style="margin-top:-15px"></a></p>
+						<p style= "padding-left:460px; margin-top:-25px;"><a href = https://www.youtube.com/c/UniversitasKatolikDarmaCendika/><img src="../gambar/youtube.png" width="25px" height="30px" style="margin-top:-15px"></a></p>
+						<p style= "padding-left:510px; margin-top:-27px;"><a href =https://www.facebook.com/universitaskatolik.darmacendika/><img src="../gambar/facebook.png" width="22px" height="22px" style="margin-top:-15px"></a></p>
+						<p style= "padding-left:560px; margin-top:-25px;"><a href =https://twitter.com/ukdcofficial?lang=en/><img src="../gambar/twitter.png" width="24px" height="24px" style="margin-top:-15px"></a></p>
+					</td>
+			</table>
+		</div>
+		
+		<div class="footer2">
+			&copy; 2021 byoha
+		</div>
+</footer>
+
+</html>
